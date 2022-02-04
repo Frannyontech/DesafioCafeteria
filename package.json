@@ -1,5 +1,7 @@
 {
   "name": "DesafioCafeteria",
   "private": true,
-  "dependencies": {}
+  "dependencies": {
+    "highcharts": "^9.3.3"
+  }
 }

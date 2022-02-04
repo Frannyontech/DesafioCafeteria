@@ -1,0 +1,48 @@
+<h1>Singular Coffee Roasters</h1>
+
+<div>
+    <h2>Last 12 months sales</h2>
+    <%= column_chart @sales_by_month %>
+</div>
+<div>
+    <h2>Last 12 months amount of sales</h2>
+    <%= column_chart @sales_by_count %>
+</div>
+<div>
+    <h2>Average of Sales</h2>
+    <%= column_chart @sales_by_average %>
+</div>
+
+<div>
+    <h2>Last 12 months Origin Coffee Sales</h2>
+    <%= pie_chart @sales_by_origin_12 %>
+</div>
+<div>
+    <h2>Last 6 months Origin Coffee Sales</h2>
+    <%= pie_chart @sales_by_origin_6 %>
+</div>
+<div>
+    <h2>Last 3 months Origin Coffee Sales</h2>
+    <%= pie_chart @sales_by_origin_3 %>
+</div>
+<div>
+    <h2>Last month Origin Coffee Sales</h2>
+    <%= pie_chart @sales_by_origin_1 %>
+</div>
+
+<div>
+    <h2>Last month Blend Coffee Sales</h2>
+    <%= pie_chart @sales_by_blend_12 %>
+</div>
+<div>
+    <h2>Last month Blend Coffee Sales</h2>
+    <%= pie_chart @sales_by_blend_6 %>
+</div>
+<div>
+    <h2>Last month Blend Coffee Sales</h2>
+    <%= pie_chart @sales_by_blend_3 %>
+</div>
+<div>
+    <h2>Last month Blend Coffee Sales</h2>
+    <%= pie_chart @sales_by_blend_1 %>
+</div>
